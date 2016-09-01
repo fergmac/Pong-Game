@@ -13,8 +13,7 @@ export default class Board {
         ctx.stroke();
     }
     render(ctx) {
-    ctx.clearRect(0, 0, this.width, this.height);
+        ctx.clearRect(0, 0, this.width, this.height);
         this.drawLine(ctx);
     }
 }
-        

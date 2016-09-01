@@ -7,6 +7,6 @@ var game = new Game();
 function gameLoop() {
 	game.drawLine();
 	game.render();
-    setTimeout(gameLoop, Settings.fps);
+	setTimeout(gameLoop, Settings.fps);
 }
 gameLoop();

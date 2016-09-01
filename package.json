@@ -6,7 +6,7 @@
   "author": "Shawn McKay <shawn.j.mckay@gmail.com>",
   "main": "build/bundle.js",
   "scripts": {
-    "start": "webpack && webpack-dev-server --output-public-path=/build/"
+    "start": "webpack && webpack-dev-server"
   },
   "devDependencies": {
     "babel-core": "^6.9.0",

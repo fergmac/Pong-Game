@@ -21,7 +21,7 @@ export default class Game {
 
       console.log(this.player1, this.player2);
    }
-     drawLine() {
+   drawLine() {
       this.context.setLineDash([10, 10]);
       this.context.beginPath();
       this.context.moveTo(this.width / 2, 0);
@@ -29,7 +29,7 @@ export default class Game {
       this.context.strokeStyle = "white";
       this.context.stroke();
    }
-     render() {
+   render() {
       this.drawLine();
       this.board.render(this.context);
       this.player1.render(this.context);
@@ -39,6 +39,6 @@ export default class Game {
       this.scoreBoard2.render(this.context, this.player2);
       
             // add here
-   }
-}
+         }
+      }
 

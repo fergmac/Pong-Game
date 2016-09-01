@@ -13,34 +13,34 @@ export default class Paddle {
          console.log(event.keyCode)
          switch (event.keyCode) {
             case controls.up:
-               this.y = Math.max (
-                  0,
-                  this.y - this.speed);
-               break;
+            this.y = Math.max (
+               0,
+               this.y - this.speed);
+            break;
             case controls.down:
-               this.y = Math.min (
-                  this.maxHeight - this.height,
-                  this.y + this.speed
+            this.y = Math.min (
+               this.maxHeight - this.height,
+               this.y + this.speed
                );
-               break;
+            break;
             case controls.pause:
 
-      }
-   });
+         }
+      });
 
       
    }
    scoreMethod() {
-    this.score += 1;
-    console.log(this.score);
-   }
+     this.score += 1;
+     console.log(this.score);
+  }
 
-   render(ctx) { 
-      ctx.fillStyle = 'pink';
-      ctx.fillRect(
-         this.x, this.y,
-         this.width, this.height
+  render(ctx) { 
+   ctx.fillStyle = 'pink';
+   ctx.fillRect(
+      this.x, this.y,
+      this.width, this.height
       );
 
-   }
+}
 }
