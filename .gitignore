@@ -1,6 +1,5 @@
 node_modules
 DS_Store
-build/*.js
 build/*.json
 .DS_Store
 .DS_Store?
