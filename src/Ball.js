@@ -105,8 +105,6 @@ render(ctx, player1, player2) {
   this.x += this.vx;
   this.y += this.vy;
   this.paddleCollision(player1, player2);
-  
-  
 
 };
 
