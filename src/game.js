@@ -19,7 +19,7 @@ export default class Game {
       this.player1 = new Paddle(this.height, Settings.gap, Settings.p1keys);
       this.player2 = new Paddle(this.height, this.width - 4 - Settings.gap, Settings.p2keys);
 
-      console.log(this.player1, this.player2);
+   
    }
    drawLine() {
       this.context.setLineDash([10, 10]);

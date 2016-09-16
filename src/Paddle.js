@@ -10,7 +10,6 @@ export default class Paddle {
   this.score = 0;
   
   document.addEventListener('keydown', event => {
-   console.log(event.keyCode)
    switch (event.keyCode) {
     case controls.up:
     this.y = Math.max (
